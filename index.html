@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<style>
+    body {
+        background-image: url("1.jpg");
+    }
+</style>
+
+<html>
+    <head>
+        <title>
+            Tushar Sharma Portfolio Website.
+        </title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anybody:ital@1&family=Overlock&display=swap" rel="stylesheet">
+
+        <style>
+            h1{
+                font-family: 'Alfa Slab One', cursive;
+                font-size: xx-large;
+            }
+            h2{
+                font-family: 'Anybody', cursive;
+            }
+            h4{
+                font-family: 'Overlock', cursive;
+            }
+            .bottom{
+                margin-top: 50px;
+                margin-bottom: 20px;
+                background-color: whitesmoke;
+                position: absolute;
+                left: 200px;
+                right: 225px;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px black;
+            }
+            .form{
+                align-self: center;
+                width: 100%;
+                position: relative;
+                left: 50px;
+            }
+            .abc{
+                margin-top: 5px;
+                margin-left: 1000px;
+                background-color: rgb(255, 255, 255);
+                height: 36px;
+                width: 105px;
+                border: none;
+                box-shadow: 5px 5px 5px black;
+                border-style: solid;
+                border: 1px;
+                border-radius: 2.5px;
+                cursor: pointer;
+                opacity: 0.6;
+                transition: opacity 0.25s;
+            }
+            .abc:hover{
+                opacity: 0.9;
+            }
+            .abc:active{
+                opacity: 1;
+            }
+            .ab{
+                margin-left: 10px;
+                background-color: rgb(147, 228, 65);
+                height: 36px;
+                width: 105px;
+                border: none;
+                box-shadow: 5px 5px 5px black;
+                border-style: solid;
+                border: 1px;
+                border-radius: 2.5px;
+                cursor: pointer;
+                opacity: 0.6;
+                transition: opacity 0.25s;
+            }
+            .ab:hover{
+                opacity: 0.9;
+            }
+            .ab:active{
+                opacity: 1;
+            }
+            .box{
+                background-color: #fff;
+                opacity: 0.9;
+                margin-left: 195px;
+                margin-top: 70px;
+                width: 1000px;
+                height: 500px;
+                border-style: none;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px rgb(0, 0, 0);
+            }
+            .im{
+                width: 1px;
+                height: 1px;
+                object-fit: contain;
+            }
+        </style>
+    </head>
+    <body><a href="#home">
+        <button class="abc">
+            HOME
+        </button>
+        </a>
+        <a href="#about">
+        <button class="ab">
+            ABOUT ME
+        </button>
+        </a>
+        <a href="#contact">
+        <button class="ab">
+            CONTACT
+        </button>
+        </a>
+        <button class="box">
+            <p div if="home">
+                <h2>
+                    Hi! My name is 
+                </h2>
+                <h1>
+                    TUSHAR SHARMA.
+                </h1>
+                <h3>
+                    Just another Webd enthusiast.
+                </h3>
+            </p>
+        </button>
+        <button class="box">
+            <h1 div id="about">
+                ABOUT ME:
+            </h1>
+            <img src="2.png" alt="">
+            <h2 >
+                Hello!I am Tushar Sharma ,a 1st year B.Tech undergraduate in Computer and Communication Technology from LNMIIT,Jaipur.I have keen interest in Competetive Coding and currently also exploring my interest in Web Development.
+                Apart from studies I enjoy playing badminton,read books and play guitar.
+            </h2>
+        </button>
+        <button class="box">
+            <h1 div id="contact">
+                CONTACT US:
+            </h1>
+            <h4>
+                <a href="https://www.linkedin.com/in/sharmaaatusharrr/">click here for my linkedin handle</a>
+            </h4>
+            <h4>
+                <a href="https://www.instagram.com/sharmaaatusharrr/">click here for my instagram handle</a>
+            </h4>
+            <h4>
+                <a href="https://codeforces.com/profile/tushar815">click here for my codeforces handle</a>
+            </h4>
+            <h4>Email:<a href="tushars815@gmail.com">tushars815@gmail.com</a>
+            </h4>
+            <h4>
+                Contact no.:6378294407
+            </h4>
+        </button>
+        <div class="bottom">
+            <h1 class="form" div id="talk">Lets Talk:</h1>
+            <form class="form" action="mailto:tushars815@gmail.com" method="post" enctype="text/plain">
+                <label for="Name">Your Name</label>
+                <input type="text" id="Name" name="Name"><br>
+                <label for="Email">Your email id</label>
+                <input type="email" id="Email" name="Email"><br>
+                <label for="gender">Gender(helps a lot:)</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br>
+                <label for="about">About You</label><br>
+                <textarea id="about" name="about" rows="7" cols="100"></textarea><br>
+                <button class="ab" name="submit"><strong>Submit</strong></button>
+            </form>
+        </div>
+    </body>
+</html>
